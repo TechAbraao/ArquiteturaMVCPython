@@ -24,6 +24,8 @@ class PeopleFinderView:
             Registros: { message["count"] }
             Infos:
                 Name: { message["infos"]["name"] }
+                Age: { message["infos"]["age"] }
+                Altura: { message["infos"]["height"] }
         '''
         print(sucess_message)
 
