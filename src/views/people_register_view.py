@@ -2,6 +2,9 @@ import os
 from typing import Dict
 
 class PeopleRegisterView:
+
+    # A view que registrará a pessoa... 
+    # Nela são apenas passado Inputs para recebimento de dados.
     def registry_person_view(self) -> Dict:
         os.system('cls||clear')
 
@@ -16,6 +19,8 @@ class PeopleRegisterView:
             "height": height,
         }
 
+                # Retornará os dados que foram solicitados no Input...
+                # e serão encaminhados para o Controller da sua respectiva View.
         return new_person_informations
     
     def registry_person_sucess(self, message: Dict) -> None:
